@@ -87,7 +87,8 @@ def extract_text_and_schema_from_image(image_path: str):
       "article": "The product's article number, SKU, or model code.",
       "descriptionItem": "A brief, human-readable description of the article.",
       "quantity": "The number of units of the article being purchased. This is an integer.",
-      "statistical_number":"`Appears in tariff/customs reference column",
+      "number_of_packages":"Quantity of packages (e.750., number of cases)",
+      "statistical_number":"Appears in tariff/customs reference column",
       "unitPrice": "The price for a single unit of the article. This is a floating-point number.",
       "gross_weight": "Gross weight of goods in kg"
     }
