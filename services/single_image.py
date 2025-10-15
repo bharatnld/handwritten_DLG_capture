@@ -84,12 +84,12 @@ def extract_text_and_schema_from_image(image_path: str):
 
   "goods_details": [
     {
-      "item_no": "Item or line number (if listed).",
-      "description": "Description of goods or product name.",
-      "article_number": "Internal or supplier article number.",
-      "quantity": "Quantity or amount (numeric or weight).",
-      "unit": "Unit type (e.g., cases, pallets, kg).",
-      "origin_country": "Country of origin (if printed)."
+      "article": "The product's article number, SKU, or model code.",
+      "descriptionItem": "A brief, human-readable description of the article.",
+      "quantity": "The number of units of the article being purchased. This is an integer.",
+      "statistical_number":"`Appears in tariff/customs reference column",
+      "unitPrice": "The price for a single unit of the article. This is a floating-point number.",
+      "gross_weight": "Gross weight of goods in kg"
     }
   ],
 
