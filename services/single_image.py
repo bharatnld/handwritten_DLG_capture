@@ -275,7 +275,7 @@ Your primary task is to accurately extract information and populate the provided
 *   **Product Line Structure:** Maintain the structure of item lists, correctly associating quantities, descriptions, and any relevant item-specific codes or details.
 
 Schema:
-{generic_schema}
+{schema}
 """
 
 
